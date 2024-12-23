@@ -1,0 +1,18 @@
+/* styles.css */
+#float-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    z-index: 1000;
+}
+
+#message {
+  color: red;
+}

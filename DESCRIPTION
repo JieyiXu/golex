@@ -1,0 +1,28 @@
+Package: golex
+Title: An Amazing Shiny App
+Version: 0.0.1
+Authors@R: 
+    person(given = "firstname",
+           family = "lastname",
+           role = c("aut", "cre"),
+           email = "your@email.com")
+Description: What the package does (one paragraph).
+License: What license is it under?
+Imports: 
+    attempt,
+    config,
+    DT,
+    glue,
+    golem,
+    htmltools,
+    shiny,
+    shinyjs,
+    readxl
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
